@@ -1,0 +1,92 @@
+.foto1 {
+  width: 150px; 
+  height: auto;
+}
+
+/* NAVBAR  */
+.transition{
+  transition: .9s;
+}
+
+.nav-scrolled {
+  margin: 5vh 15vw;
+  background-color: black !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid ;
+  border-radius: 10px;
+}
+
+
+body{
+  font-family: "Bitter", serif;
+  margin-top: 100px;
+}
+
+.font-dosis {
+  font-family: "Dosis", sans-serif !important;
+}
+
+.artisti {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.logom{
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid;
+  padding: 5px;
+}
+
+.googlemaps{
+  height: 500px;
+  width: 600px;
+  max-width: 90%;
+}
+
+.Artista{
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* sezione carosello particolare js */
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
